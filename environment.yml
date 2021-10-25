@@ -1,6 +1,16 @@
-name: example-environment
-channels:
-  - conda-forge
+name: Navier-Stokes-2D
 dependencies:
   - numpy
   - matplotlib
+  - ipywidgets >= 7.6
+  - sympy >= 1.7.0
+  - jupyterlab >= 3.0.0
+  - pandas
+  - xarray
+  - pip
+  - pint
+  - black
+  - tqdm
+  - pip:
+    - expectexception
+    - ipympl  
